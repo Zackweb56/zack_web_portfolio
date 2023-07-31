@@ -1,0 +1,71 @@
+#skills{
+    position: relative;
+    /* margin-top: -100px; */
+}
+
+.skill_01{
+    margin-right: 5px;
+}
+
+.mt{
+    margin-top: 60px;
+}
+
+.skill_card{
+    position: relative;
+    font-size: 80px;
+    text-align: center;
+    color: #535353;
+    padding: 0px 12px;
+    margin-top: 20px;
+}
+
+.skill_card .circle_color_percentage{
+    position: absolute;
+    top: 45px;
+    right: 100px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.skill_card .circle_color_percentage span{
+    position: absolute;
+    top: 0;
+    left: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.skill_name{
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: -15px;
+}
+
+.skill_desc{
+    width: 75%;
+    font-size: 12px;
+    color: #aaa;
+    line-height:25px;
+    text-align: center;
+    margin: auto 12%;
+}
+
+@media screen and (max-width:768px) {
+    #skills{
+        margin-top: 460px;
+    }
+    .skill_card{
+        width: 10%;
+    }
+    .slider{
+        margin-left: 8%;
+    }
+    .skill_card .circle_color_percentage{
+        left: 53%;
+    }
+}

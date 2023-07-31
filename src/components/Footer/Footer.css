@@ -1,0 +1,33 @@
+/* #footer{
+    background-color: #00060c;
+} */
+
+.line{
+    color: #242424;
+    margin: 0;
+}
+
+.copyrights{
+    color: #aaa;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.copyrights span{
+    color: var(--main-color);
+}
+
+@media screen and (max-width:768px) {
+    #footer{
+        width: 100%;
+    }
+    .line{
+        margin-left: 12%;
+    }
+    .copyrights{
+        font-size: 10px;
+        margin-left: 12%;
+        width: 100%;
+    }
+}

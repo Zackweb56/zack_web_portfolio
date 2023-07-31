@@ -1,0 +1,46 @@
+#projects{
+    position: relative;
+}
+
+.gap{
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.projects_card{
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    color: #fff;
+    width: 30%;
+}
+
+.projects_card .project_image{
+    object-fit: cover;
+}
+
+.projects_card .project_image img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.projects_card .btn{
+    width: 42%;
+    font-size: 10px;
+    margin: 15px 0 0 0;
+}
+
+@media screen and (max-width:768px) {
+    .gap{
+        display: block;
+    }
+    .projects_card{
+        width: 80%;
+        margin-top: 25px;
+        margin-left: 22%;
+    }
+}
