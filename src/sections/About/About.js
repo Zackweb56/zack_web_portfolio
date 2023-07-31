@@ -5,6 +5,8 @@ import Titles from '../../components/Titles/Titles'
 import { FaDownload } from "react-icons/fa6";
 
 // import AboutBackground from '../../assets/home02.png'
+import { saveAs } from 'file-saver';
+
 import './About.css'
 import SocialIcons from '../../components/SocialIcons/SocialIcons';
 
@@ -14,6 +16,10 @@ function About() {
           width: '100%',
           height: '100vh',
         },
+    };
+    const handleDownload = () => {
+      const cvURL = '/cv.pdf'; // Replace with the actual filename and path if different.
+      saveAs(cvURL, 'my_cv.pdf'); // You can change the downloaded file's name here.
     };
     return (
     <>
@@ -42,7 +48,7 @@ function About() {
                     <p><span>freelance : </span> available</p>
                   </div>
                 </div>
-                <div className="btn">
+                <div className="btn" onClick={handleDownload}>
                   <Button title="Download CV" link="#" icon={<FaDownload />} />
                 </div>
                 <SocialIcons />

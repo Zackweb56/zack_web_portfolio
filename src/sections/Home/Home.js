@@ -3,13 +3,13 @@ import Button from '../../components/Button/Button';
 import SocialIcons from '../../components/SocialIcons/SocialIcons';
 import { FaDownload } from "react-icons/fa6";
 import Coding from '../../assets/coding.png'
+import { saveAs } from 'file-saver';
 import './Home.css'
 
 function Home() {
     const handleDownload = () => {
-        // Replace 'myfile.pdf' with the actual filename and path if it's different.
-        const pdfURL = '/my_cv_english.pdf';
-        window.open(pdfURL, '_blank');
+        const cvURL = '/my_cv_english.pdf'; // Replace with the actual filename and path if different.
+        saveAs(cvURL, 'my_cv.pdf'); // You can change the downloaded file's name here.
     };
     return (
     <>
@@ -35,7 +35,7 @@ function Home() {
                     </h1>
                     <p> I am a highly skilled full-stack developer proficient in both front-end and back-end development. I have the ability to create dynamic and user-friendly web applications with exceptional features.</p>
                     <div className="btn" onClick={handleDownload}>
-                        <Button title="Download CV" link="/my_cv_english.pdf" icon={<FaDownload />} />
+                        <Button title="Download CV" icon={<FaDownload />} />
                     </div>
                     <SocialIcons />
                 </div>
