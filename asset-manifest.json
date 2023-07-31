@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.7215156a.css",
-    "main.js": "/my_portfolio/static/js/main.d4ac4e7a.js",
-    "static/media/ecommerce.png": "/my_portfolio/static/media/ecommerce.bc5e93d79d2d2208240c.png",
-    "static/media/about00.png": "/my_portfolio/static/media/about00.24000aa6a06ed2b3bff5.png",
-    "static/media/coding.png": "/my_portfolio/static/media/coding.d7abfb42ee76cab24e35.png",
-    "static/media/fastfood.jpg": "/my_portfolio/static/media/fastfood.dcb6cde6f1f7e2f7c123.jpg",
-    "static/media/quiz.png": "/my_portfolio/static/media/quiz.6d38d13543d43aa97b28.png",
-    "static/media/slick.svg": "/my_portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/my_portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/my_portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/my_portfolio/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/my_portfolio/index.html",
-    "main.7215156a.css.map": "/my_portfolio/static/css/main.7215156a.css.map",
-    "main.d4ac4e7a.js.map": "/my_portfolio/static/js/main.d4ac4e7a.js.map"
+    "main.css": "/zack_web_portfolio/static/css/main.7acc300c.css",
+    "main.js": "/zack_web_portfolio/static/js/main.4cc231b3.js",
+    "static/media/ecommerce.png": "/zack_web_portfolio/static/media/ecommerce.bc5e93d79d2d2208240c.png",
+    "static/media/about00.png": "/zack_web_portfolio/static/media/about00.24000aa6a06ed2b3bff5.png",
+    "static/media/coding.png": "/zack_web_portfolio/static/media/coding.d7abfb42ee76cab24e35.png",
+    "static/media/fastfood.jpg": "/zack_web_portfolio/static/media/fastfood.dcb6cde6f1f7e2f7c123.jpg",
+    "static/media/quiz.png": "/zack_web_portfolio/static/media/quiz.6d38d13543d43aa97b28.png",
+    "static/media/slick.svg": "/zack_web_portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/zack_web_portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/zack_web_portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/zack_web_portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/zack_web_portfolio/index.html",
+    "main.7acc300c.css.map": "/zack_web_portfolio/static/css/main.7acc300c.css.map",
+    "main.4cc231b3.js.map": "/zack_web_portfolio/static/js/main.4cc231b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.7215156a.css",
-    "static/js/main.d4ac4e7a.js"
+    "static/css/main.7acc300c.css",
+    "static/js/main.4cc231b3.js"
   ]
 }
