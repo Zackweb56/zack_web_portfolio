@@ -12,7 +12,7 @@ function Home() {
         saveAs(cvURL, 'my_cv.pdf'); // You can change the downloaded file's name here.
     };
     return (
-    <>
+    <div className='container-md'>
         <div className="area" >
             <ul className="circles">
                 <li></li>
@@ -27,7 +27,7 @@ function Home() {
                 <li></li>
             </ul>
         </div >
-        <div id="home" className='container-md'>
+        <div id="home" className='c'>
             <div className="home d-flex justify-content-between align-items-center">
                 <div className="information">
                     <h1>
@@ -44,7 +44,7 @@ function Home() {
                 </div>
             </div>
         </div>
-    </>
+    </div>
   );
 }
 

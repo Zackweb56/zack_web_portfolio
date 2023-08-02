@@ -4,6 +4,7 @@ import Footer from './components/Footer/Footer';
 import Loader from './components/Loader/Loader';
 import Navbar from './components/Navbar/Navbar';
 import About from './sections/About/About';
+import HireMe from './sections/HireMe/HireMe';
 import Home from './sections/Home/Home';
 import Projects from './sections/Projects/Projects';
 import Skills from './sections/Skills/Skills';
@@ -27,6 +28,7 @@ function App() {
           <Home />
           <About />
           <Skills />
+          <HireMe />
           <Projects />
           <Footer />
         </div>

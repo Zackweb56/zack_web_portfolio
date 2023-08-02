@@ -7,16 +7,16 @@ const SocialIcons = () => {
   return (
     <div className='SocialIcons'>
         <a href='https://github.com/Zackweb56' className="facebook">
-            <FaFacebook />
+          <span><FaFacebook /></span>
         </a>
         <a href='https://github.com/Zackweb56' className="whatsapp">
-            <FaWhatsapp />           
+          <span><FaWhatsapp /></span>    
         </a>
         <a href='https://github.com/Zackweb56' className="github">
-            <FaGithub />           
+          <span><FaGithub /></span>     
         </a>
         <a href='https://www.linkedin.com/in/zakaria-boughaba-447318283' className="linkedin">
-           <FaLinkedin />           
+          <span><FaLinkedin /></span>           
         </a>
     </div>
   )

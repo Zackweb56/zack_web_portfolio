@@ -5,7 +5,7 @@
 .about_me{
     position: absolute;
     width: 50%;
-    top: 24%;
+    top: 20%;
     right: 0%;
 }
 
@@ -23,14 +23,13 @@
 
 .img{
     width: 100%;
-    position: relative;
 }
 
 .img img{
     position: absolute;
-    left: 3%;
-    top: -15%;
-    width: 45%;
+    /* left: 3%; */
+    top: 9%;
+    width: 50%;
     height: auto;
     object-fit: cover;
     align-items: center;
@@ -65,7 +64,7 @@
         margin-top: 50px;
     }
     .about_me{
-        width: 110%;
+        width: 100%;
         margin: 0 -12%;
         top: 50%;
     }
@@ -80,6 +79,6 @@
         display: block;
     }
     .about_me .btn{
-        width: 43%;
+        width: 53%;
     }
 }

@@ -28,6 +28,11 @@
     border-radius: 8px;
 }
 
+.project_desc p span{
+    font-size: 25px;
+    margin-right: 12px;
+}
+
 .projects_card .btn{
     width: 42%;
     font-size: 10px;
@@ -42,5 +47,15 @@
         width: 80%;
         margin-top: 25px;
         margin-left: 22%;
+    }
+    .projects_card .project_title{
+        font-size: 6px;
+    }
+    .projects_card .btn{
+        width: 100%;
+        /* display: flex;
+        justify-content: space-between;
+        align-items: center; */
+        font-size: 8px;
     }
 }

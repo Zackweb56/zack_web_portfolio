@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import $ from 'jquery';
-// import Logo from '../../assets/logo.png'
+import Logo from '../../assets/Logo01.png'
 import './Navbar.css'
 
 function Navbar() {
@@ -46,10 +46,10 @@ function Navbar() {
     return (
     <>
         <nav className="nav affix">
-            <div className="container-md">
+            <div className="con">
                 <a href="#home" className="logo">
-                    zack web <span>.</span>
-                    {/* <img src={Logo} alt="zack_web_logo" /> */}
+                    {/* zack web <span>.</span> */}
+                    <img src={Logo} alt="zack_web_logo" />
                 </a>
                 <div id="mainListDiv" className="main_list">
                     <ul className="navlinks">

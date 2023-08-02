@@ -33,6 +33,11 @@ html{
   font-size: 10px;
 }
 
+::selection{
+  background-color: var(--main-color);
+  color: #000408;
+}
+
 @media screen and (max-width:768px) {
   body{
     width: 75%;

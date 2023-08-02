@@ -2,13 +2,12 @@ import React from 'react'
 import About_img from '../../assets/about00.png'
 import Button from '../../components/Button/Button';
 import Titles from '../../components/Titles/Titles'
-import { FaDownload } from "react-icons/fa6";
+import { BiSolidRightArrow } from "react-icons/bi";
 
 // import AboutBackground from '../../assets/home02.png'
-import { saveAs } from 'file-saver';
+// import { saveAs } from 'file-saver';
 
 import './About.css'
-import SocialIcons from '../../components/SocialIcons/SocialIcons';
 
 function About() {
     const styles = {
@@ -17,19 +16,15 @@ function About() {
           height: '100vh',
         },
     };
-    const handleDownload = () => {
-      const cvURL = '/cv.pdf'; // Replace with the actual filename and path if different.
-      saveAs(cvURL, 'my_cv.pdf'); // You can change the downloaded file's name here.
-    };
     return (
     <>
-        <div id="about" style={styles.about} className='container-md align-items-center'>
+        <div id="about" style={styles.about} className='container'>
             <Titles title='about me' />
             <div className="row">
               <div className="img col-lg-6">
                 <img src={About_img} alt="coding..." />
               </div>
-              <div className="about_me col-lg-6">
+              <div className="about_me col-lg-6 w-100">
                 <h1>
                   Hello, <span style={{color:'var(--main-color)'}}>I'm</span> A Full stack developer
                 </h1>
@@ -48,10 +43,9 @@ function About() {
                     <p><span>freelance : </span> available</p>
                   </div>
                 </div>
-                <div className="btn" onClick={handleDownload}>
-                  <Button title="Download CV" link="#" icon={<FaDownload />} />
+                <div className="btn">
+                  <Button title="More Info" link="#" icon={<BiSolidRightArrow />} />
                 </div>
-                <SocialIcons />
               </div>
             </div>
         </div>
