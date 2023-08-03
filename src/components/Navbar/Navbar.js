@@ -53,7 +53,7 @@ function Navbar() {
                 </a>
                 <div id="mainListDiv" className="main_list">
                     <ul className="navlinks">
-                        <li><a href="/" >Home</a></li>
+                        <li><a href="/zack_web_portfolio" >Home</a></li>
                         <li><a href="#about" onClick={(e) => handleSmoothScroll(e, 'about')} className={activeLink === 'about' ? 'active_link' : ''} >About Me</a></li>
                         <li><a href="#skills" onClick={(e) => handleSmoothScroll(e, 'skills')} className={activeLink === 'skills' ? 'active_link' : ''} >Skills</a></li>
                         <li><a href="#projects" onClick={(e) => handleSmoothScroll(e, 'projects')} className={activeLink === 'projects' ? 'active_link' : ''}>Projects</a></li>
