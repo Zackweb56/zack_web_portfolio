@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       {isLoading ? (<Loader />) : (
-        <Router basename='/zack_web_portfolio'>
+        <Router>
           {/* <Navbar /> */}
           <Routes>
             <Route path='/zack_web_portfolio' element={<Home />} />
