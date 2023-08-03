@@ -1,0 +1,78 @@
+ .heading {
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+  .heading span{
+    color:var(--main-color);
+    text-transform: uppercase;
+}
+
+  .box-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+  .box-container .box{
+    position: relative;
+    flex:1 1 33rem;
+    border-left: .2rem solid var(--main-color);
+    padding: 0 2rem 2rem 2rem;   
+}
+
+  .box-container .box::before{
+    content: '';
+    position: absolute;
+    top:0; 
+    left: -1rem;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background:var(--main-color);
+}
+
+.box-container .box .content{
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    padding:1.5rem;
+    box-shadow: var(--shadow);
+}
+
+  .box-container .box .content .span{
+    color:#fff;
+    font-size: 1.7rem;
+    background:var(--main-color);
+    border-radius: 50rem;
+    padding:.4rem 1rem;
+}
+
+  .box-container .box .content h3{
+    font-size: 2.5rem;
+    color: #fff;    
+}
+
+  .box-container .box .content p{
+    margin-top: -12px;
+    font-size: 1.5rem;
+    color:#aaa;
+    width: 70%;
+}
+
+.box-container .box .content .btn{
+  margin-top: 20px;
+  width: 15%;
+}
+
+
+@media screen and (max-width:768px) {
+      .box-container .box{
+        margin-right: -70px;   
+    }
+      .box-container .box .content p{
+        width: 100%;
+    }
+}

@@ -15,7 +15,7 @@ export const ProData = [
     {
         project_image: img02,
         project_title: 'Fast Food website design',
-        project_desc: [<FaHtml5 />  ,  <FaCss3Alt />],
+        project_desc: [<FaHtml5 />  ,  <FaCss3Alt />, <FaBootstrap />],
     },
     {
         project_image: img03,

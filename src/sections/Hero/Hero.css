@@ -1,4 +1,4 @@
-#home{
+#Hero{
     position: absolute;
     top: 10%;
     left: 10%;
@@ -19,17 +19,17 @@
     margin-bottom: 20px;
 }
 
-.home_image{
+.Hero_image{
     width: 100%;
     height: auto;
 }
 
-.home_image img{
+.Hero_image img{
     width: 100%;
 }
 
 @media screen and (max-width:768px) {
-    #home{
+    #Hero{
         /* width: 100%; */
         margin-left: -10%;
     }
@@ -43,12 +43,15 @@
     .background{
         width: 20%;
     }
-    .home{
+    .Hero{
         flex-direction: column;
         /* margin-left: 0; */
     }
-    .home_image img{
+    .Hero_image img{
         width: 95%;
+    }
+    .information .btn{
+        width: 50%;
     }
 }
 

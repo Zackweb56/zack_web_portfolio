@@ -1,0 +1,17 @@
+.scroll-to-top {
+    /* display: none; */
+    position: fixed;
+    bottom: 30px;
+    right: -300px;
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: right .5s ease;
+}
+
+.scroll-to-top.visible {
+    right: 10px;
+}

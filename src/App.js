@@ -3,13 +3,12 @@ import './App.css';
 import Footer from './components/Footer/Footer';
 import Loader from './components/Loader/Loader';
 import Navbar from './components/Navbar/Navbar';
-import About from './sections/About/About';
-import HireMe from './sections/HireMe/HireMe';
-import Home from './sections/Home/Home';
-import Projects from './sections/Projects/Projects';
-import Skills from './sections/Skills/Skills';
+import Home from './Pages/Home/Home';
+import MoreInfo from './sections/About/MoreInfo/MoreInfo';
 // react router
 // import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -23,15 +22,14 @@ function App() {
   return (
     <>
       {isLoading ? (<Loader />) : (
-        <div>
-          <Navbar />
-          <Home />
-          <About />
-          <Skills />
-          <HireMe />
-          <Projects />
+        <Router>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/more_info' element={<MoreInfo />} />
+          </Routes>
           <Footer />
-        </div>
+          <ScrollToTop />
+        </Router>
       )}
     </>
   );

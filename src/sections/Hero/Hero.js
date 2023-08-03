@@ -4,9 +4,9 @@ import SocialIcons from '../../components/SocialIcons/SocialIcons';
 import { FaDownload } from "react-icons/fa6";
 import Coding from '../../assets/coding.png'
 import { saveAs } from 'file-saver';
-import './Home.css'
+import './Hero.css'
 
-function Home() {
+function Hero() {
     const handleDownload = () => {
         const cvURL = '/my_cv_english.pdf'; // Replace with the actual filename and path if different.
         saveAs(cvURL, 'my_cv.pdf'); // You can change the downloaded file's name here.
@@ -27,8 +27,8 @@ function Home() {
                 <li></li>
             </ul>
         </div >
-        <div id="home" className='c'>
-            <div className="home d-flex justify-content-between align-items-center">
+        <div id="Hero">
+            <div className="Hero d-flex justify-content-between align-items-center">
                 <div className="information">
                     <h1>
                         Hello, <span style={{color:'var(--main-color)'}}>I'm</span> <br /> BOUGHABA ZAKARIA A Full stack developer
@@ -39,8 +39,8 @@ function Home() {
                     </div>
                     <SocialIcons />
                 </div>
-                <div className="home_image">
-                    <img src={Coding} className="img-fluid" alt="home image" />
+                <div className="Hero_image">
+                    <img src={Coding} className="img-fluid" alt="Hero image" />
                 </div>
             </div>
         </div>
@@ -48,4 +48,4 @@ function Home() {
   );
 }
 
-export default Home
+export default Hero

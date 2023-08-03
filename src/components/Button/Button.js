@@ -1,17 +1,19 @@
 import React from 'react'
 import './Button.css'
+// route link
+// import {Link} from 'react-router-dom'
 
 function Button(props) {
   return (
-    <>
-    <div className="button">
-      <a href={props.link}>
-      {props.title} &nbsp;
-      <span className="shift">{props.icon}</span>
-      </a>
-      <div className="mask"></div>
+    <div id='button'>
+    <a href={props.link} className="link">
+      <div className="button">
+        {props.title} &nbsp;
+        <span className="shift">{props.icon}</span>
+        <div className="mask"></div>
+      </div>
+    </a>
     </div>
-    </>
   )
 }
 

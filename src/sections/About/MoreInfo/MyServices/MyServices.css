@@ -1,0 +1,63 @@
+
+.service{
+    padding-top: 70px;
+}
+
+.service  .box_se-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.service  .box_se-container  .box_se{
+    flex:1 1 30rem;
+    text-align: center;
+    padding:2rem;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    /* padding:1.5rem; */
+    box-shadow: var(--shadow);
+
+}
+
+.service  .box_se-container  .box_se .icon{
+    height:6rem;
+    width:6rem;
+    margin: 0 auto;
+    line-height: 6rem;
+    font-size: 3rem;
+    color:#fff;
+    background:var(--main-color);
+    border-radius: 50%;
+}
+
+.service  .box_se-container  .box_se h3{
+    color: #fff;
+    font-size: 2.2rem;
+    padding-top: 1rem;
+}
+
+.service  .box_se-container  .box_se p{
+    color:#aaa;
+    font-size: 1.7rem;
+    padding-top: .5rem;
+}
+
+.service  .box_se-container  .box_se button{
+    outline: none;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 4px;
+    color: #085f63;
+    background-color: #fff;
+    margin-top: 8px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.service  .box_se-container  .box_se button:hover{
+    transform: translateX(2px);
+}

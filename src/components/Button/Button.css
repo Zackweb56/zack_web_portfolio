@@ -15,7 +15,7 @@
         color 0.6s var(--transition-easing);
     user-select: none;
 }
-.button a {
+#button a {
     color: var(--color-button);
     font-family: var(--font-button);
     position: relative;
@@ -59,8 +59,8 @@
     color: var(--color-button-active);
 }
 
-@media screen and (max-width:768px) {
+/* @media screen and (max-width:768px) {
     .button{
         width: 100%;
     }
-}
+} */
