@@ -6,7 +6,7 @@ import Loader from './components/Loader/Loader';
 import MoreInfo from './sections/About/MoreInfo/MoreInfo';
 // react router
 // import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import {HashRouter as Router, Routes, Route} from 'react-router-dom'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import Home from './Pages/Home/Home';
 import ScrollLineBar from './components/ScrollLineBar/ScrollLineBar';
