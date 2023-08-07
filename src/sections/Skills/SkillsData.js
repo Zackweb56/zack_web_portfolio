@@ -1,5 +1,5 @@
 // react icon
-import { FaReact,FaLaravel,FaHtml5,FaCss3Alt,FaPython,FaBootstrap } from "react-icons/fa6";
+import { FaReact,FaLaravel,FaHtml5,FaCss3Alt,FaPython,FaBootstrap,FaFigma } from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoJquery } from "react-icons/bi";
 import { SiMysql,SiMongodb,SiPhp } from "react-icons/si";
@@ -39,11 +39,19 @@ export const SkillsData = [
     },
     {
         skill_icon: <FaBootstrap />,
-        skill_icon_color: '#553c7b85',
-        skill_icon_border: '#553c7b',
+        skill_icon_color: '#ae4dff85',
+        skill_icon_border: '#ae4dff',
         skill_name: 'Bootstrap',
         skill_percentage: '85%',
         skill_desc: 'Bootstrap is a popular open-source front-end framework for building responsive and mobile-first websites and web applications.',
+    },
+    {
+        skill_icon: <FaFigma />,
+        skill_icon_color: '#ff3b0085',
+        skill_icon_border: '#ff3b00',
+        skill_name: 'Figma',
+        skill_percentage: '55%',
+        skill_desc: 'Figma is a collaborative web-based design and prototyping tool used for creating user interfaces, user experiences, and interactive designs.',
     },
     {
         skill_icon: <IoLogoJavascript />,

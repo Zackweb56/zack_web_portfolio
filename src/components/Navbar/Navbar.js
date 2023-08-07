@@ -47,13 +47,13 @@ function Navbar() {
     <>
         <nav className="nav affix">
             <div className="con">
-                <a href="#home" className="logo">
+                <a href="#Hero" className="logo">
                     {/* zack web <span>.</span> */}
                     <img src={Logo} alt="zack_web_logo" />
                 </a>
                 <div id="mainListDiv" className="main_list">
                     <ul className="navlinks">
-                        <li><a href="#home" onClick={(e) => handleSmoothScroll(e, 'home')} className={activeLink === 'home' ? 'active_link' : ''} >Home</a></li>
+                        <li><a href="#Hero" onClick={(e) => handleSmoothScroll(e, 'Hero')} className={activeLink === 'Hero' ? 'active_link' : ''} >Home</a></li>
                         <li><a href="#about" onClick={(e) => handleSmoothScroll(e, 'about')} className={activeLink === 'about' ? 'active_link' : ''} >About Me</a></li>
                         <li><a href="#skills" onClick={(e) => handleSmoothScroll(e, 'skills')} className={activeLink === 'skills' ? 'active_link' : ''} >Skills</a></li>
                         <li><a href="#projects" onClick={(e) => handleSmoothScroll(e, 'projects')} className={activeLink === 'projects' ? 'active_link' : ''}>Projects</a></li>

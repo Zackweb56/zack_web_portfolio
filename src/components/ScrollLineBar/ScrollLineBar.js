@@ -25,20 +25,22 @@ const ScrollLineBar = () => {
     };
   
     return (
-        <div className="scroll-line-bar">
-        <div
-          className="progress-bar"
-          style={{ width: `${scrollPercentage}%` }}
-        ></div>
-        {/* <button className="scroll-button" onClick={handleScrollTo}>
+        <div className="progress">
+            <div className="scroll-line-bar">
+                <div
+                className="progress-bar"
+                style={{ width: `${scrollPercentage}%` }}
+                ></div>
+                {/* <button className="scroll-button" onClick={handleScrollTo}>
 
-        </button> */}
-        <Element name="content">
-          <div className="scroll-content">
-            {/* Content */}
-          </div>
-        </Element>
-      </div>  
+                </button> */}
+                <Element name="content">
+                <div className="scroll-content">
+                    {/* Content */}
+                </div>
+                </Element>
+            </div>  
+        </div>
     )
 }
 
