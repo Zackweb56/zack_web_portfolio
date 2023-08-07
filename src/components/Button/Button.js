@@ -6,7 +6,7 @@ import './Button.css'
 function Button(props) {
   return (
     <div id='button'>
-    <a href={props.link} className="link">
+    <a href={props.link} download={props.download} className="link">
       <div className="button">
         {props.title} &nbsp;
         <span className="shift">{props.icon}</span>
