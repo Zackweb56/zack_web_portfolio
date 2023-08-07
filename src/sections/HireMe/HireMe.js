@@ -5,7 +5,7 @@ import { DataMe } from './DataMe'
 
 const HireMe = () => {
   return (
-    <div className='my-5'>
+    <div className='morespace'>
         <Titles title='Why Hire Me ?' />
         <div id="hire" className='container-md mt-5 d-flex justify-content-center align-items-center'>
             {DataMe.map((item,index)=>{

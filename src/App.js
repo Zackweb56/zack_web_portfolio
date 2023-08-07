@@ -9,6 +9,7 @@ import MoreInfo from './sections/About/MoreInfo/MoreInfo';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import Home from './Pages/Home/Home';
+import ScrollLineBar from './components/ScrollLineBar/ScrollLineBar';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -24,9 +25,10 @@ function App() {
       {isLoading ? (<Loader />) : (
         <Router>
           {/* <Navbar /> */}
+          <ScrollLineBar />
           <Routes>
-            <Route path='/zack_web_portfolio' element={<Home />} />
-            <Route path='/more_info' element={<MoreInfo />} />
+            <Route exact path='/zack_web_portfolio' element={<Home />} />
+            <Route path='/zack_web_portfolio/more_info' element={<MoreInfo />} />
           </Routes>
           <Footer />
           <ScrollToTop />

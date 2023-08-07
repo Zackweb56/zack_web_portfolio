@@ -18,7 +18,7 @@ function About() {
     };
     return (
     <>
-        <div id="about" style={styles.about} className='container'>
+        <div id="about" style={styles.about} className='container-md'>
             <Titles title='about me' />
             <div className="row">
               <div className="img col-lg-6">
@@ -44,7 +44,7 @@ function About() {
                   </div>
                 </div>
                 <div className="btn">
-                  <Button title="More Info" link="/more_info" icon={<BiSolidRightArrow />} />
+                  <Button title="More Info" link="/zack_web_portfolio/more_info" icon={<BiSolidRightArrow />} />
                 </div>
               </div>
             </div>

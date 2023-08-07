@@ -29,7 +29,7 @@ const Projects = () => {
                 </div>
                 <div className="btn d-flex justify-content-between align-items-center" style={{ width: '100%' }}>
                   <Button title="details" link="#" icon={<FaBook />} />
-                  <Button title="preview" link="#" icon={<FaEye />} />
+                  <Button title="preview" link={item.project_link_preview} icon={<FaEye />} />
                 </div>
               </div>
             </div>

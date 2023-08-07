@@ -30,6 +30,10 @@
     line-height: 20px;
 }
 
+.morespace{
+    margin: 135px 0;
+}
+
 
 @media screen and (max-width:768px) {
     #hire{
