@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/zack_web_portfolio/static/css/main.566a3c0e.css",
-    "main.js": "/zack_web_portfolio/static/js/main.fa8e19ca.js",
+    "main.js": "/zack_web_portfolio/static/js/main.daef1e75.js",
     "static/media/ecommerce.png": "/zack_web_portfolio/static/media/ecommerce.bc5e93d79d2d2208240c.png",
     "static/media/comminucative.png": "/zack_web_portfolio/static/media/comminucative.314f6a032847567cc076.png",
     "static/media/collab.png": "/zack_web_portfolio/static/media/collab.217bcd6996bc61605a58.png",
     "static/media/about00.png": "/zack_web_portfolio/static/media/about00.24000aa6a06ed2b3bff5.png",
     "static/media/hardworking.png": "/zack_web_portfolio/static/media/hardworking.add85993dd347fefc1c9.png",
     "static/media/coding.png": "/zack_web_portfolio/static/media/coding.d7abfb42ee76cab24e35.png",
+    "static/media/my_cv_english.pdf": "/zack_web_portfolio/static/media/my_cv_english.68e535bfd3a4c3b6400f.pdf",
     "static/media/fastfood.jpg": "/zack_web_portfolio/static/media/fastfood.dcb6cde6f1f7e2f7c123.jpg",
     "static/media/quiz.png": "/zack_web_portfolio/static/media/quiz.6d38d13543d43aa97b28.png",
     "static/media/Logo01.png": "/zack_web_portfolio/static/media/Logo01.86db88ea68aa64827712.png",
@@ -17,10 +18,10 @@
     "static/media/slick.woff": "/zack_web_portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/zack_web_portfolio/index.html",
     "main.566a3c0e.css.map": "/zack_web_portfolio/static/css/main.566a3c0e.css.map",
-    "main.fa8e19ca.js.map": "/zack_web_portfolio/static/js/main.fa8e19ca.js.map"
+    "main.daef1e75.js.map": "/zack_web_portfolio/static/js/main.daef1e75.js.map"
   },
   "entrypoints": [
     "static/css/main.566a3c0e.css",
-    "static/js/main.fa8e19ca.js"
+    "static/js/main.daef1e75.js"
   ]
 }
