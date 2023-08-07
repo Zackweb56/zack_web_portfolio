@@ -44,7 +44,7 @@ function About() {
                   </div>
                 </div>
                 <div className="btn">
-                  <Button title="More Info" link="/zack_web_portfolio/more_info" icon={<BiSolidRightArrow />} />
+                  <Button title="More Info" link="/MoreInfo" icon={<BiSolidRightArrow />} />
                 </div>
               </div>
             </div>
