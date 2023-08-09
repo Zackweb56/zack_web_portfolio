@@ -1,12 +1,24 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Titles from '../../components/Titles/Titles'
 import Button from '../../components/Button/Button';
 import './Projects.css'
 // react icon
-import { FaBook,FaEye } from "react-icons/fa6";
+import { FaBook,FaCode } from "react-icons/fa6";
+// import { MdOutlineClose } from "react-icons/md";
 import { ProData } from './ProData';
 
 const Projects = () => {
+  // const [showPopup, setShowPopup] = useState(false);
+
+  // const togglePopup = () => {
+  //   setShowPopup(!showPopup);
+  // };
+  const [selectedCardIndex, setSelectedCardIndex] = useState(null);
+
+  const handleSelectCard = (index) => {
+    setSelectedCardIndex(index);
+  };
+
   return (
     <div id='projects' className='container-md mb-5 mt-5'>
       <Titles title='projects' />
@@ -28,8 +40,19 @@ const Projects = () => {
                   </p>
                 </div>
                 <div className="btn d-flex justify-content-between align-items-center" style={{ width: '100%' }}>
-                  <Button title="details" link="#" icon={<FaBook />} />
-                  <Button title="preview" link={item.project_link_preview} icon={<FaEye />} />
+                  <div className="project_details" onClick={() => handleSelectCard(index)}>
+                  <Button title="details" icon={<FaBook />} />
+                  </div>
+                  {selectedCardIndex === index && (
+                    <div className="popup">
+                      <div className="popup-content">
+                        <h2>{item.project_title}</h2>
+                        <p>{item.project_details}</p>
+                        <button className='close_btn' onClick={() => handleSelectCard(null)}> Close</button>
+                      </div>
+                    </div>
+                  )}
+                  <Button title="source" link={item.project_link_preview} icon={<FaCode />} />
                 </div>
               </div>
             </div>

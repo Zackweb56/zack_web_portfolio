@@ -1,10 +1,15 @@
 import React from 'react'
+import SocialIcons from '../SocialIcons/SocialIcons';
 import './Footer.css'
 
 const Footer = () => {
   return (
     <footer id="footer" className='my-4 container-md'>
-      <p className="copyrights ">All Rights Reserved &copy;2023-2024 | made by <span>Boughaba Zakaria</span></p>
+      <div className="social_icons my-1">
+      <SocialIcons/>
+      </div>
+      <p className='copyrights m-1'> created by <span>Boughaba Zakaria</span></p>
+      <p className="copyrights m-1">&copy;2023-2024 | All Rights Reserved</p>
     </footer>
   );
 }

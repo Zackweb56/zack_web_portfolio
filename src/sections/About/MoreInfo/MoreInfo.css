@@ -67,6 +67,16 @@
   width: 15%;
 }
 
+.back_home{
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  text-decoration: none;
+  color: #aaa;
+  font-size: 15px;
+  float: inline-end;
+  /* margin-right: 20px; */
+}
 
 @media screen and (max-width:768px) {
       .box-container .box{

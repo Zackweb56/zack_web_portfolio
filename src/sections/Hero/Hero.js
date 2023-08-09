@@ -32,7 +32,7 @@ function Hero() {
             <div className="Hero d-flex justify-content-between align-items-center">
                 <div className="information">
                     <h1>
-                        Hello, <span style={{color:'var(--main-color)'}}>I'm</span> <br /> BOUGHABA ZAKARIA A Full stack developer
+                        Hello, <span style={{color:'var(--main-color)'}}>I'm</span> <br /> BOUGHABA ZAKARIA <br /> A Full stack developer
                     </h1>
                     <p> I am a highly skilled full-stack developer proficient in both front-end and back-end development. I have the ability to create dynamic and user-friendly web applications with exceptional features.</p>
                     <div className="btn">

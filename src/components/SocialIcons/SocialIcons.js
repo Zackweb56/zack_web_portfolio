@@ -6,10 +6,10 @@ import { FaFacebook, FaWhatsapp, FaGithub, FaLinkedin } from "react-icons/fa6";
 const SocialIcons = () => {
   return (
     <div className='SocialIcons'>
-        <a href='https://github.com/Zackweb56' className="facebook">
+        <a href='https://facebook.com' className="facebook">
           <span><FaFacebook /></span>
         </a>
-        <a href='https://github.com/Zackweb56' className="whatsapp">
+        <a href='https://wa.me/qr/OK6FDXMFVZOEE1' className="whatsapp">
           <span><FaWhatsapp /></span>    
         </a>
         <a href='https://github.com/Zackweb56' className="github">

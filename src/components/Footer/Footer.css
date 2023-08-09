@@ -1,10 +1,10 @@
-/* #footer{
-    background-color: #00060c;
-} */
+#footer{
+    margin-top: 40px;
+}
 
-.line{
-    color: #242424;
-    margin: 0;
+.social_icons{
+    width: 15%;
+    margin: 0 auto;
 }
 
 .copyrights{
@@ -21,9 +21,10 @@
 @media screen and (max-width:768px) {
     #footer{
         width: 100%;
-    }
-    .line{
         margin-left: 12%;
+    }
+    .social_icons{
+        margin-left: 35%;
     }
     .copyrights{
         font-size: 10px;

@@ -1,0 +1,46 @@
+
+.contact form{
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact form textarea,
+.contact form .inputBox input{
+    background: transparent;
+    border-radius: 16px;
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4); */
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    color: #fff;
+    width: 100%;
+    outline: none;
+    margin:.7rem 0;
+    text-transform: none;
+    font-size: 1.6rem;
+    padding: 20px;
+}
+
+.contact form textarea{
+    height: 20rem;
+    resize: none;
+}
+
+.s_btn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+@media (max-width:450px){
+
+    .contact form {
+        width: 100%;
+        margin-left: 8%;
+    }
+
+    .s_btn{
+        margin-left: 15%;
+    }
+}

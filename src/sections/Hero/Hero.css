@@ -3,9 +3,13 @@
     top: 10%;
     left: 10%;
 }
+/* .information{
+    position: absolute;
+    top: 0;
+} */
 .information h1{
     font-weight: bold;
-    font-size: 40px;
+    font-size: 45px;
     color: #fff;
 }
 .information p{

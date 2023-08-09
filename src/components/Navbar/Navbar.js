@@ -57,7 +57,7 @@ function Navbar() {
                         <li><a href="#about" onClick={(e) => handleSmoothScroll(e, 'about')} className={activeLink === 'about' ? 'active_link' : ''} >About Me</a></li>
                         <li><a href="#skills" onClick={(e) => handleSmoothScroll(e, 'skills')} className={activeLink === 'skills' ? 'active_link' : ''} >Skills</a></li>
                         <li><a href="#projects" onClick={(e) => handleSmoothScroll(e, 'projects')} className={activeLink === 'projects' ? 'active_link' : ''}>Projects</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#contact" onClick={(e) => handleSmoothScroll(e, 'contact')} className={activeLink === 'contact' ? 'active_link' : ''}>Contact</a></li>
                     </ul>
                 </div>
                 <span className="navTrigger" id='navTrigger'>
