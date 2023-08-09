@@ -1,4 +1,4 @@
-import img01 from '../../assets/ecommerce.png';
+import img01 from '../../assets/electro.jpg';
 import img02 from '../../assets/fastfood.jpg';
 import img03 from '../../assets/travel.png';
 // icons

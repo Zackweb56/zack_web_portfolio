@@ -6,13 +6,14 @@ import MyExperience from './MyExperience/MyExperience'
 import Titles from '../../../components/Titles/Titles'
 import MyServices from './MyServices/MyServices'
 import { BiSolidLeftArrow } from "react-icons/bi";
+import {Link} from 'react-router-dom';
 
 
 const MoreInfo = () => {
   return (
     <div>
       <Titles title='More Information' />
-      <a href="/" className="back_home"> <BiSolidLeftArrow /> Return</a>
+      <Link to="/" className="back_home"> <BiSolidLeftArrow /> Return</Link>
       <MyEducation />
       <MyExperience />
       <MyServices />
