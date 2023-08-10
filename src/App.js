@@ -10,7 +10,7 @@ import {HashRouter as Router, Routes, Route} from 'react-router-dom'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import Home from './Pages/Home/Home';
 import ContactForm from './sections/ContactForm/ContactForm';
-// import ScrollLineBar from './components/ScrollLineBar/ScrollLineBar';
+import ScrollLineBar from './components/ScrollLineBar/ScrollLineBar';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -26,7 +26,7 @@ function App() {
       {isLoading ? (<Loader />) : (
         <Router>
           {/* <Navbar /> */}
-          {/* <ScrollLineBar /> */}
+          <ScrollLineBar />
           <Routes>
             <Route exact path='/' element={<Home />} />
             <Route path='/MoreInfo' element={<MoreInfo />} />
